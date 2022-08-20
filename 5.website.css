@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))  ,url(bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.navbar nav ul{
+    list-style-type: none;
+    
+}
+
+.navbar nav ul li{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.navbar nav ul li a{
+    color: white;
+}
+
+.navbar ul li:hover{
+    color: gray;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.center{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+.aciklama{
+    font-size: 15px;
+    color: skyblue;
+    
+}
+
+p{
+    font-size: 10px;
+    color: skyblue;
+    line-height: 20px;
+}
+
+.left{
+    flex-basis: 50%;
+    align-items: center;
+    
+    
+}
+
+.btns{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    margin-top: 25px;
+    border: 1px solid red;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.btns:hover{
+    border-color: white;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+}
+
+p1{
+    color: skyblue
+}
+
+.togg img{
+    height: 300px;
+    width: 200px
+}
+
+.cardhead{
+    display: inline-block;
+    
+}
